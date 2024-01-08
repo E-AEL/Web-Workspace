@@ -1,0 +1,16 @@
+.animated-heading {
+    animation: textShadow 500ms infinite alternate;
+    color: white;
+    font-family: sans-serif;
+    font-size: 3em;
+    text-align: center;
+   }
+   
+   @keyframes textShadow {
+     0% {
+       text-shadow: 0 0 5px rgb(255, 0, 0), 0 0 10px #00f, 0 0 15px #00f, 0 0 20px rgb(255, 0, 0);
+    }
+     100% {
+       text-shadow: 0 0 20px rgb(255, 0, 0), 0 0 30px #00f, 0 0 40px #00f, 0 0 50px rgb(255, 0, 0);
+    }
+   }
